@@ -1,0 +1,71 @@
+/* 내용영역 */
+#main_wrap{width:100%;background:url(/img/main/m_bg.gif) repeat-x top;}
+
+#mvisual_wrap{width:100%;}
+.m_visual{position:relative;width:980px;height:320px;margin:0 auto;overflow:hidden;}
+.m_visual .visualbg{float:left;width:100%;height:320px;margin:0 auto;position:absolute;top:0;left:0;z-index:5;text-indent:-2000%;text-align:center;}
+.m_visual .visualbg img{display:block;margin:0 auto;}
+
+.m_visual .controller{position:absolute;right:240px;bottom:22px;text-align:center;}
+.m_visual .controller .btns{width:100%;display:inline-block;}
+.m_visual .controller .btns .prev{position:relative;z-index:6;display:inline;padding-right:8px;background:url(/img/main/visual_bu.png) no-repeat right;}
+.m_visual .controller .btns .next{position:relative;z-index:6;display:inline;}
+.m_visual .controller .btns a{display:block;padding:0 5px;}
+
+.m_visual .controller2{position:absolute;right:290px;bottom:20px;padding:0;text-align:center;}
+.m_visual .controller2 .rollbtn{width:100%;display:inline-block;}
+.m_visual .controller2 .rollbtn a{display:inline-block;margin:0 1px;position:relative;z-index:6;}
+
+
+.sponsor{position:absolute;top:0;right:0;width:210px;z-index:10;}
+.sponsor ul{width:100%;}
+.sponsor ul li{line-height:0;}
+
+
+#main{display:inline-block;width:978px;margin:25px auto 30px auto;border:1px solid #dfdfdf;border-top:1px solid #777;}
+.m_fr{float:right;width:769px;text-align:left;}
+.fr_top{width:100%;overflow:hidden;clear:both;}
+
+/*홍보대사*/
+.motion{position:relative;float:left;width:208px;height:318px;border-right:1px solid #dfdfdf;}
+.motion ul.lst{position:absolute;right:16px;top:18px;z-index:3;}
+.motion ul.lst li{float:left;margin-left:10px;}
+.motion ul.img{padding:19px 0 0 20px;}
+.motion ul.img li{float:left;margin-right:3px;}
+.motion ul.img li a{position:relative;z-index:2;}
+.motion ul.img li div{position:absolute;top:0;left:0;z-index:1;}
+
+
+/*진행중 캠페인*/
+.campaign{position:relative;float:left;width:555px;height:248px;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;}
+.campaign .tit{margin-bottom:17px;}
+.campaign p.prev{position:absolute;top:28px;right:63px;}
+.campaign p.next{position:absolute;top:28px;right:36px;}
+.campaign ul{width:100%;display:inline-block;}
+.campaign ul li{float:left;margin-right:20px;}
+.campaign ul li.end{margin:0;}
+.campaign .area_ {position:relative; float:right; width:720px; height:150px; overflow:hidden;}
+
+/*천사칼럼*/
+.column{position:relative;float:left;width:188px;height:220px;padding:28px 0 0 25px;border-bottom:1px solid #dfdfdf;}
+.column p.tit{margin-bottom:14px;}
+.column dl{width:165px;margin-bottom:10px;}
+.column dl dt{margin-bottom:3px;}
+.column dl dt a{color:#555;}
+.column dl dt a:hover{color:#000;}
+.column dl dd{font-size:11px;color:#888;font-family:tahoma;}
+.column .more{position:absolute;top:28px;right:25px;}
+
+/*메뉴바로가기 배너*/
+.smban{width:100%;}
+.smban ul{width:100%;}
+.smban ul li{float:left;height:69px;border-right:1px solid #e3ddd4;}
+.smban ul li img{height:69px;}
+.smban ul li.end{border:0;}
+
+/*배너모음*/
+.row05{width:980px;height:50px;margin:0 auto 45px auto;}
+#RollingBanner{width:800px;height:50px;float:right;}
+#RollingBanner ul li{float:left;width:20%;}
+.banner_btn{float:left;width:88px;margin:14px 40px;}
+.banner_btn a{display:block;border:1px solid #eaeaea;float:left;margin:-1px -1px 0 0;}

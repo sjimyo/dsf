@@ -1,0 +1,18 @@
+#param1 {
+    background-color: rgba(230, 226, 235,0.5);
+}
+#param2 {
+    background-color: rgba(230, 226, 235,0.5);
+    color: whitesmoke;
+    text-align: center;
+    border-color: whitesmoke;
+    border-style: dotted;
+    border-width: 1px;
+    }
+body {
+    /*background-image: url("../images/1920x1080_lights-Iceland-mountain-sea-night.jpg");*/
+    background-repeat: no-repeat;
+}
+.col-2 {
+    border-style: dotted dashed solid double;
+}
